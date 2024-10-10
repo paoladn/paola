@@ -1,12 +1,12 @@
 
 :root {
-    --text-color: #DBE4EF;
+    --text-color: #161718;
     --card-front-color: #144480;
     --card-back-color: #00F4BF;} 
 
 footer{
-    background-color: black;
-    color: white;
+    background-color: pink;
+    color: rgb(0, 0, 0);
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -68,3 +68,10 @@ body {
                 .cartao:hover .cartao__conteudo {
                     transform: rotateY(180deg);
                     }
+                    #container {
+                        display: flex;
+                        flex-wrap:wrap;
+                        justify-content: space-between;
+                        padding: 4rem;
+                        gap: 3rem;
+                        }
