@@ -52,7 +52,6 @@ body {
     font-size: 1vw;
     backface-visibility: hidden;
    }
-            .cartao__conteudo__pergunta,
             .cartao__conteudo__resposta {
              backface-visibility: hidden;
              position: absolute;
@@ -62,8 +61,9 @@ body {
             .cartao__conteudo__resposta {
                 transform: rotateY(180deg)
                 }
-                .cartao__conteudo__pergunta{
-                    
+                .cartao__conteudo__pergunta{ 
+                    color: var(--text-color);
+                    font-weight: 500; 
                 }
 
                 .cartao__conteudo p {
