@@ -1,9 +1,4 @@
-criaCartao(
-    categoria,
-    pergunta,
-    resposta,
-    )
-    criaCartao(
+ criaCartao(
         'Programação',
         'O que é JavaScript?',
         'O JavaScript é uma linguagem de programação'
